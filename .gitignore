@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model weights (optional - remove if you want to commit them)
+*.pt
+*.pth
+*.onnx
+
+# InsightFace models cache
+.insightface/
+
+# Dataset (keep structure but not actual data)
+dataset/raw_images/*
+!dataset/raw_images/person_1/
+!dataset/raw_images/person_2/
+!dataset/raw_images/person_3/
+dataset/raw_images/person_1/*
+dataset/raw_images/person_2/*
+dataset/raw_images/person_3/*
+!dataset/raw_images/person_*/.gitkeep
+
+dataset/faces_cropped/*
+!dataset/faces_cropped/.gitkeep
+
+dataset/embeddings/*
+!dataset/embeddings/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
